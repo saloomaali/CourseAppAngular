@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3 mt-4">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" *ngFor = "Let i of courses">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <td scope = "col">Course Title</td>
+                                <td scope = "col">Course Description</td>
+                                <td scope = "col">Course Duration</td>
+                                <td scope = "col">Course Date</td>
+                                <td scope = "col">Course Venue</td>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>{{id.courseTitle}}</td>
+                            <td>{{id.courseDescription}}</td>
+                            <td>{{id.courseDuration}}</td>
+                            <td>{{id.courseDate}}</td>
+                            <td>{{id.courseVenue}}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
